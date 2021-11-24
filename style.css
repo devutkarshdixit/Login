@@ -13,7 +13,20 @@ form{
     padding: 10px 20px;
     text-align: center;
 }
-form input, #btn{
+form input{
+    width: 55%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #f0f0f0;
+    cursor: text;
+    text-decoration: none;
+    color: black;
+}
+#btn{
     width: 55%;
     padding: 10px;
     margin: 15px 0;
@@ -26,10 +39,7 @@ form input, #btn{
     text-decoration: none;
     color: black;
 }
-form button{
-    margin: 10px 0;
-}
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
