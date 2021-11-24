@@ -1,6 +1,6 @@
-*{
-    margin: 5px;
-    padding: 10px;
+body{
+    margin: 0;
+    padding: 0;
     background-color: pink;
 }    
 h1{
@@ -42,4 +42,31 @@ form input{
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+.footer{
+    background-color: rgb(238, 177, 233);
+    text-align: center;
+    color: #000000;
+    padding: 10px 0;
+}
+.footer p a{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0px;
+    position: relative;
+    color: crimson;
+    text-decoration: none;
+}
+.footer p a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.footer a:hover::after{
+    width: 100%;
 }
