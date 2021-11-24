@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
 </head>
 <body>
     <h1>Smart Shopping Cart</h1>
-    <form action="">
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="tel" pattern="[0-9]" placeholder="Phone No.:  (Format:- 1-2-3-4-5-6-7-8-9-10)" required>
+    <form name="signup" method="">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <input type="tel" name="phone" onkeypress="return onlyNumberKey(event)" placeholder="Phone No.:  (Format:- 1-2-3-4-5-6-7-8-9-10)" required>
         <input type="submit" id="btn" value="Sign Up"><br><br>
         <p>Already have an Account?</p>
         <a id="btn" href="index.html">Sign In</a>
     </form>
+
 </body>
+
 </html>
