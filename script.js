@@ -6,3 +6,11 @@ function onlyNumberKey(evt) {
         return false;
     return true;
 }
+/*JS for Toggle Menu For small screens*/
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}

@@ -5,29 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account</title>
+    <title>Smart Shopping Cart</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
+    <nav>
+        <a href="index.html"><img src="cart.png"></a>
+
+        <div class="nav-links" id="navLinks">
+
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <!-----menu contents-->
+
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+                <li><a href="About.html"><i class="fa fa-book"></i> ABOUT</a></li>
+                <li><a href="Contact.html"><i class="fa fa-address-book"></i> CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
     <h1>Smart Shopping Cart</h1>
     <form name="signup" method="">
         <input type="text" placeholder="Name" name="name" required>
         <input type="email" placeholder="Email" name="email" required>
         <input type="tel" name="phone" onkeypress="return onlyNumberKey(event)"
-            placeholder="Phone No.: " required>
+            placeholder="Phone No.:  (Format:- 1-2-3-4-5-6-7-8-9-10)" required>
         <input type="submit" id="btn" value="Sign Up"><br><br>
         <p>Already have an Account?</p>
         <a id="btn" href="index.html">Sign In</a>
     </form>
+
     <div class="footer">
         <p>Created by <a target="_blank" href="https://utkarsh-dixit-git.github.io/utkarshdixit/">Utkarsh Dixit</a> &
-            team.
-        </p>
+            team</p>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
