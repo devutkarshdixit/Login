@@ -19,6 +19,7 @@ nav .fa{
 .nav-links{
     flex: 1;
     text-align: right;
+    position:sticky;
 }
 .nav-links ul li{
     list-style: none;
@@ -211,4 +212,12 @@ a{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
+}
+.location{
+    width: 80%;
+    padding: 80px 0;
+    margin: auto;
+}
+.location iframe{
+    width: 100%;
 }
