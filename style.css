@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: pink;
+    text-align: center;
 }
 nav{
     display: flex;
@@ -66,7 +67,7 @@ form input{
     color: black;
 }
 #btn{
-    width: 55%;
+    width: 29%;
     padding: 10px;
     margin: 15px 0;
     box-sizing: border-box;
@@ -77,6 +78,10 @@ form input{
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+#btn:hover{
+    color: #f0f0f0;
+    background: #db6b6b;
 }
 a{
     text-decoration: none;
@@ -139,4 +144,71 @@ a{
     }nav img{
         width: 50px;
     }
+}
+
+
+
+
+
+.about{
+    background: #111;
+    color: #fff;
+}
+.about .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.about .carousel .card:hover{
+    background: crimson;
+}
+.about .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.about .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.about .carousel .card .text{
+    font-style: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.about .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
 }
