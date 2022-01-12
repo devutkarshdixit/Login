@@ -35,7 +35,8 @@
     <h1>Smart Shopping Cart</h1>
     <form action="">
         <input type="text" placeholder="Name" required>
-        <input type="password" placeholder="Password" required><br>
+        <input type="password" placeholder="Password" required>
+        <i class="bi bi-eye-slash" id="togglePassword"></i><br>
         <a href="forgot.html" id="line">Forget password?</a><br><br>
         <input type="submit" id="btn" value="Sign In"><br><br>
         <p>Don't have an Account?</p>
@@ -48,6 +49,19 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        const togglePassword = document.querySelector("#togglePassword");
+        const password = document.querySelector("#myInput");
+
+        togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+            
+            // toggle the icon
+            this.classList.toggle("bi-eye");
+        });
+    </script>
 </body>
 
 </html>
