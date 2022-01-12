@@ -155,6 +155,7 @@ section .title::after{
 .about{
     background: #111;
     color: #fff;
+    padding-bottom: 30px; 
 }
 .about .about-content{
     display: flex;
@@ -218,7 +219,6 @@ section .title::after{
     border-radius: 50%;
     border: 2px solid crimson!important;
     transition: all 0.3s ease;
-    padding-bottom: 10px;
 }
 .owl-dot.active{
     width: 35px;
