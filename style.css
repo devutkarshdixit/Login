@@ -4,9 +4,6 @@ body{
     background-color: pink;
     text-align: center;
 }
-checkbox{
-    cursor: pointer;
-}
 nav{
     display: flex;
     padding: 2% 6%;
@@ -66,7 +63,7 @@ form input{
     border-radius: 10px;
     outline: none;
     background: #f0f0f0;
-    cursor: text;
+    
     text-decoration: none;
     color: black;
 }
