@@ -41,7 +41,7 @@
         <input type="tel" name="phone" onkeypress="return onlyNumberKey(event)"
             placeholder="Phone No.:" required> <br>
         <input type="password" placeholder="password" name="password" id="myInput" required>
-        <i class="bi bi-eye-slash" id="togglePassword"></i>
+        <i class="bi bi-eye-slash" id="togglePassword"></i><br>
         <input type="submit" id="btn" value="Sign Up"><br><br>
         <p>Already have an Account?</p>
         <a id="btn" href="index.html">Sign In</a>
@@ -53,19 +53,7 @@
     </div>
 
     <script src="script.js"></script>
-    <script>
-        const togglePassword = document.querySelector("#togglePassword");
-        const password = document.querySelector("#myInput");
-
-        togglePassword.addEventListener("click", function () {
-            // toggle the type attribute
-            const type = password.getAttribute("type") === "password" ? "text" : "password";
-            password.setAttribute("type", type);
-            
-            // toggle the icon
-            this.classList.toggle("bi-eye");
-        });
-    </script>
+    
 </body>
 
 </html>
