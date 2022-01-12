@@ -4,6 +4,9 @@ body{
     background-color: pink;
     text-align: center;
 }
+checkbox{
+    cursor: pointer;
+}
 nav{
     display: flex;
     padding: 2% 6%;
