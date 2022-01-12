@@ -218,6 +218,7 @@ section .title::after{
     border-radius: 50%;
     border: 2px solid crimson!important;
     transition: all 0.3s ease;
+    padding-bottom: 10px;
 }
 .owl-dot.active{
     width: 35px;
