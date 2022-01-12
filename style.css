@@ -93,7 +93,7 @@ a{
     background-color: rgb(238, 177, 233);
     text-align: center;
     color: #000000;
-    padding: 10px 0;
+    padding: 10px 0px;
 }
 .footer p a{
     list-style: none;
@@ -149,11 +149,51 @@ a{
 
 
 
-
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-family: 'Ubuntu',sans-serif;
+}
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    font-size: 15px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
 
 .about{
     background: #111;
     color: #fff;
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .title::before{
+    background: #fff;
+}
+.about .title::after{
+    background: #111;
+    content: "Who with me";
 }
 .about .carousel .card{
     background: #222;
