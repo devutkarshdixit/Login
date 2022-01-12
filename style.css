@@ -68,6 +68,10 @@ form input{
     text-decoration: none;
     color: black;
 }
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
 #btn{
     width: 29%;
     padding: 10px;
