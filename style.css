@@ -153,7 +153,7 @@ section .title::after{
 }
 
 .about{
-    background: #111;
+    background: pink;
     color: #fff;
     padding-bottom: 30px; 
 }
