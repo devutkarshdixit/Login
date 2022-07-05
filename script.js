@@ -17,22 +17,18 @@ function hideMenu() {
 }
 // owl carousel script
 $('.carousel').owlCarousel({
-    margin: 20,
+    margin: 100,
     loop: true,
     autoplay: true,
-    autoplayTimeOut: 2000,
+    autoplayTimeOut: 100,
     autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1,
             nav: false
         },
-        600: {
+        50: {
             items: 2,
-            nav: false
-        },
-        1000: {
-            items: 3,
             nav: false
         }
     }
