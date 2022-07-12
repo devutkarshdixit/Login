@@ -8,3 +8,4 @@ A login page which allow users to sign in or create an account!!!
 ![](https://img.shields.io/github/repo-size/utkarsh-dixit-git/login?style=for-the-badge)
 ![](https://img.shields.io/github/languages/count/utkarsh-dixit-git/login?style=for-the-badge)
 ![](https://img.shields.io/github/languages/code-size/utkarsh-dixit-git/login?style=for-the-badge)
+![https://utkarsh-dixit-git.github.io/Login/](https://img.shields.io/github/deployments/utkarsh-dixit-git/Login/github-pages?style=for-the-badge)
